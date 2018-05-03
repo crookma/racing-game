@@ -73,11 +73,12 @@
      <Compile Include="Assets\Standard Assets\Vehicles\Aircraft\Scripts\LandingGear.cs" />
      <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\BrakeLight.cs" />
      <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\CameraStable.cs" />
-     <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\CarAIControl.cs" />
      <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\CarAudio.cs" />
+     <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\CarControlActive.cs" />
      <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\CarController.cs" />
      <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\CarSelfRighting.cs" />
      <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\CarUserControl.cs" />
+     <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\Countdown.cs" />
      <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\HalfTrigger.cs" />
      <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\LapComplete.cs" />
      <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\LapTimeManager.cs" />
