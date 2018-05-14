@@ -35,8 +35,8 @@ public class Countdown : MonoBehaviour {
 		yield return new WaitForSeconds (1);
 		CountDown.SetActive (false);
 		GoAudio.Play (); 
-		LapTimer.SetActive (true);
-		CarControls.SetActive (true);
+		LapTimer.SetActive (true); //Starts the lap timer
+		CarControls.SetActive (true); //The player can move
 
 	}
 

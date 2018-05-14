@@ -249,8 +249,9 @@ namespace UnityStandardAssets.Vehicles.Car
             {
                 var turnadjust = (transform.eulerAngles.y - m_OldRotation) * m_SteerHelper;
                 Quaternion velRotation = Quaternion.AngleAxis(turnadjust, Vector3.up);
-                m_Rigidbody.velocity = velRotation * m_Rigidbody.velocity;
+				m_Rigidbody.velocity = velRotation * m_Rigidbody.velocity;
             }
+
             m_OldRotation = transform.eulerAngles.y;
         }
 
