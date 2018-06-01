@@ -82,7 +82,11 @@
      <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\HalfTrigger.cs" />
      <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\LapComplete.cs" />
      <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\LapTimeManager.cs" />
+     <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\LoadLapTime.cs" />
      <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\Mudguard.cs" />
+     <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\ramp.cs" />
+     <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\Restart.cs" />
+     <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\Restarts.cs" />
      <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
      <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
      <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />

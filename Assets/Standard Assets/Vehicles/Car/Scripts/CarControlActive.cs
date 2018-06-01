@@ -1,8 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿/* Magnus Crooke
+ * 6-1-18
+ * This code is responsible for setting the car controls on when the countdown is done.
+ */
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
+
 
 public class CarControlActive : MonoBehaviour {
 

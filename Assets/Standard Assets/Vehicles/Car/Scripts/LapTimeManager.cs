@@ -1,10 +1,14 @@
-﻿using System.Collections;
+﻿/* Magnus Crooke
+ * 6-1-18
+ * This code is responsible for managing the lap time.
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class LapTimeManager : MonoBehaviour {
-
+	//counts time
 	public static int MinuteCount;
 	public static int SecondCount;
 	public static float MilliCount;
@@ -14,7 +18,7 @@ public class LapTimeManager : MonoBehaviour {
 	public GameObject SecondBox;
 	public GameObject MilliBox;
 
-
+	//the lap time manager. counts up in time until the player crosses the finish line.
 	void Update () {
 		MilliCount += Time.deltaTime * 10;
 		MilliDisplay = MilliCount.ToString ("F0");

@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿/* Magnus Crooke
+ * 6-1-18
+ * This code is responsible for a trigger.
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
